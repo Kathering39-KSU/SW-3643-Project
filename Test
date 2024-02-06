@@ -1,1 +1,13 @@
+using System;
+// ReSharper disable UnusedMember.Local
 
+internal class Sample {
+    private void UnusedParameter(string used) {
+        Console.WriteLine("This parameter is used: " + used);
+    }
+
+    private int Booleans(bool z, bool a, bool b) {
+        if (!(z ? a : b)) return 1;
+        return 2;
+    }
+}
