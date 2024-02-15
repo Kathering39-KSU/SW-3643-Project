@@ -382,14 +382,14 @@
           }
         }
       },
-      "Calculator/1.0.0": {
+      "CalculatorEngine/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Calculator.dll": {}
+          "bin/placeholder/CalculatorEngine.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Calculator.dll": {}
+          "bin/placeholder/CalculatorEngine.dll": {}
         }
       }
     }
@@ -985,15 +985,15 @@
         "version.txt"
       ]
     },
-    "Calculator/1.0.0": {
+    "CalculatorEngine/1.0.0": {
       "type": "project",
-      "path": "../Calculator/Calculator.csproj",
-      "msbuildProject": "../Calculator/Calculator.csproj"
+      "path": "../CalculatorEngine/CalculatorEngine.csproj",
+      "msbuildProject": "../CalculatorEngine/CalculatorEngine.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Calculator >= 1.0.0",
+      "CalculatorEngine >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
@@ -1026,8 +1026,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Roami\\OneDrive\\Documents\\GitHub\\SW-3643-Project\\Calculator\\Calculator\\Calculator.csproj": {
-              "projectPath": "C:\\Users\\Roami\\OneDrive\\Documents\\GitHub\\SW-3643-Project\\Calculator\\Calculator\\Calculator.csproj"
+            "C:\\Users\\Roami\\OneDrive\\Documents\\GitHub\\SW-3643-Project\\Calculator\\CalculatorEngine\\CalculatorEngine.csproj": {
+              "projectPath": "C:\\Users\\Roami\\OneDrive\\Documents\\GitHub\\SW-3643-Project\\Calculator\\CalculatorEngine\\CalculatorEngine.csproj"
             }
           }
         }
