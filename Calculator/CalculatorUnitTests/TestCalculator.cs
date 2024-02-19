@@ -7,13 +7,13 @@ public class TestCalculator
     public void Test_CalculatorAdd_ReturnsCorrect()
     {
         //arrange
-        int inputA = 7;
-        int inputB = 4;
-        int mathFunction = 1;
-        double expected = 11;
+        var inputA = 7;
+        var inputB = 4;
+        var mathFunction = 1;
+        var expected = 11;
         
         //act
-        double actual = Calculator.CalculatorEngine.CalculateWebInputs(inputA,inputB,mathFunction);
+        var actual = Calculator.CalculatorEngine.CalculateWebInputs(inputA,inputB,mathFunction);
 
         //assert
         Assert.AreEqual(expected,actual);
