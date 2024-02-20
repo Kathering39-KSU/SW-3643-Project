@@ -2,7 +2,7 @@
 namespace Calculator;
 public class CalculatorEngine
 {
-    public static var CalculateWebInputs(var inputA,var inputB, int mathFunction)
+    public static var CalculateWebInputs(double inputA,double inputB, int mathFunction)
     {
         double functionResult = 1.0;
         switch (mathFunction)
@@ -20,13 +20,13 @@ public class CalculatorEngine
                 functionResult = (inputA / inputB);
                 break;
             case 5:
-                functionResult= (inputA == inputB);
+                functionResult= (inputA.CompareTo(inputB));
                 break;
             case 6:
                 functionResult = Math.Pow(inputA, inputB);
                 break;
             case 7:
-                functionResult = Math.Log((double)inputA, (double)inputB);
+                functionResult = Math.Log(inputA, inputB);
                 break;
             case 8:
                 functionResult = Math.Pow(inputA, (1/inputB));
