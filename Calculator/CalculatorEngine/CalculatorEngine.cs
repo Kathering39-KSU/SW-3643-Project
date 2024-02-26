@@ -1,8 +1,10 @@
 ﻿using System.Diagnostics;
-namespace Calculator;
+using CalculatorEngine;
+
+namespace CalculatorEngine;
 public class CalculatorEngine
 {
-    public static var CalculateWebInputs(double inputA,double inputB, int mathFunction)
+    /*public static var CalculateWebInputs(double inputA,double inputB, int mathFunction)
     {
         double functionResult = 1.0;
         switch (mathFunction)
@@ -52,5 +54,29 @@ public class CalculatorEngine
                 break;
         }
         return functionResult;
+    }
+*/
+    public static double CalculateSum(double inputA, double inputB)//adds 2 floating point numbers together
+    {
+        var resultSum = (inputA + inputB);
+        return resultSum;
+    }
+
+    public static double CalculateDifference(double inputA, double inputB)//subtracts inputB from inputA
+    {
+        var resultDifference = (inputA - inputB);
+        return resultDifference;
+    }
+
+    public static double CalculateProduct(double inputA, double inputB)//multiply inputA by inputB
+    {
+        var resultProduct = inputA * inputB;
+        return resultProduct;
+    }
+
+    public static double CalculateDivision(double inputA,double inputB)//divide inputA by input B 
+    {
+ var resultDividedNumber = inputA / inputB;
+        return resultDividedNumber;
     }
 }
